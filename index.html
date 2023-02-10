@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ee5da478ec.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/TusharLogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li> 
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <p>Front End Developer <br></p>
+                <h1>i'm<span>Tushar Borul</span><br> </h1> -->
+                <div class="te1">Hellow, My name is</div>
+                <div class="te2"> <span>Tushar</span> Borul</div>
+                <div class="te3">And I'm a </div>
+                <div class="te4"><span>Front</span> End Developer</div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------About------------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/myphoto.jpg">
+                </div>
+                <div class="about-col2">
+
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi provident harum neque totam
+                        nihil explicabo atque debitis libero suscipit fugiat obcaecati enim necessitatibus corporis eius
+                        voluptatibus, mollitia maxime esse error?</p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certification')">Certification</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>HTML5 </li>
+                            <li>CSS3 </li>
+                            <li>JAVASCRIPT</li>
+                            <li>BOOTSTRAP</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents" id="experince">
+                        <ul>
+                            <li><span>UI</span><br> futfyf yffif gy y yugug hiisig hsg uguuggu </li>
+
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents" id="education">
+                        
+                        <ul>
+                            <li><span>BE</span> in Electronics and Telecommunication Engineering<br> Aditya Engineering
+                                College, Beed.<br>8.2 CGPA</li>
+                            <li><span>Diploma </span> in Electronics and Telecommunication Engineering<br>Shri. Shivaji
+                                Polytechnic Institute,Parbhani. <br>70.41%</li>
+                            <li><span>SSC </span> <br>Bal Vidya Mandir, Parbhani.<br>70.41%</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certification">
+                        <ul>
+                                <li><a href="images/HtmlCertificate.pdf" target="_blank" class="cert"> HTML5</a></li>
+                                <li><a href="images/CssCertificate.pdf" target="_blank" class="cert">CSS3 </a></li>
+                                <li><a href="images/JsCertificate.pdf" target="_blank" class="cert">JAVASCRIPT</a></li>
+                                
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------------project-------------------------- -->
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">Project</h1>
+            <div class="work-list" id="project">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="laver">
+                        <h3>portfolio</h3>
+                        <p></p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="laver">
+                        <h3>Ecommerce website</h3>
+                        <p></p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="laver">
+                        <h3>Social media</h3>
+                        <p>ig hiddi hih bhui huhu huh hh jj</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div> -->
+            </div>
+            <a href="#project" class="btn">see more</a>
+
+        </div>
+    </div>
+    <!-- -----------------contact-------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i><a href="mailto:borultushar11@gmail.com"> borultushar11@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i><a href="tel:7722093717">7722093717</a></p>
+                    <div class="socil-icon">
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/tushar-borul-03409721a" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+
+</html>
