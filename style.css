@@ -92,6 +92,7 @@ nav ul li a:hover::after{
 }
 .about-col2{
     flex-basis: 60%;
+    text-align: justify;
 
 }
 .sub-title{
