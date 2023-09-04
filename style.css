@@ -110,7 +110,7 @@ nav ul li a:hover::after{
 h1 p {
     padding-top: 20px;
 }
-p{
+.about-col2 p{
     
     text-indent: 20px;
     font-size: 20px;
@@ -269,11 +269,13 @@ p{
     color: #ff004f;
     transform: translateY(-5px)
 }
+
 .btn.btn2{
 display: inline-block;
 background: #ff004f;
 
 }
+
 .contact-right form{
     width: 100%;
 }
@@ -294,6 +296,7 @@ form btn2{
     margin-top: 20px;
     cursor: pointer;
 }
+
 nav .fa-solid{
     display: none;
 }
